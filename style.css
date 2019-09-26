@@ -1,30 +1,31 @@
 body{
 
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0 0px 0px 0px;
+    width: 1024px;
+    margin: 0 auto;
 }
 
 
 .top_header{
     min-height: 65px;
-    width: 1024px;
-    display: flex;
+    
+    display: block;
     align-items: center;
-    margin-left: 15%;
+    /* margin-left: 15%; */
    
     
     
 }
 
 .logo{
-    background: url(img/logo.png) center center no-repeat;
-    display: block;
+    /* background: url(img/logo.png) center center no-repeat; */
+    display: inline-block;
     height: 100%;
     }
 
 .top_right_nav{
-    display:flex;
-    margin-left:70px;
+    display:inline-block;
+    /* margin-left:70px; */
 
 }    
 
@@ -32,7 +33,7 @@ body{
 
 .top_right_nav li{
     display: inline-block;
-    margin-left: 31px;
+    margin-left: 5px;
     margin-top: 21px;
     font-size: 16px;
     color:black;
@@ -91,7 +92,8 @@ body{
 }
 
 .span-box  {
-    margin-left:70px;  
+    /* margin-left:70px;   */
+    display: inline-block;
     
    
 }
@@ -101,40 +103,48 @@ body{
 
 .main {
     position: relative;
-    align-items: center;
-    margin-left: 15%;
-    width: 1024px;
-    height: auto;
+    padding-left: 47px;
     
+    /* margin-left: 15%; */
+    width: 1024px;
+    display: block;
+    margin: 0 auto;
+     height: 725px; 
+    background: url("./img/img2.jpg") center no-repeat;
 }
 
-.main img{
-   
-    
-    
+.rot-l1{
+    padding-top: 141px;   
     /*background-color: rgb(14, 26, 116);*/
 }
 
+.rot-l2{
+    margin: 47px 0;
+    width: 450px;
+}
+
 .el1{
- position: absolute;
- left: 47px; top: 142px;
+ /* position: absolute; */
+ /* left: 47px; top: 142px; */
  color:white;
  font-family: 'Overpass', sans-serif;
  font-size: 50px;
 }
 
+
+
 .el2{
-   width: 449px; 
+   /* width: 449px;  */
    font-size: 20px;
-   position: absolute;
-   left: 47px; top: 340px;
+   /* position: absolute; */
+   /* left: 47px; top: 340px; */
    color:white;
    line-height: 29px;
 }
 
 .top-btn{
-    left: 47px; top: 531px;
-    position: absolute;
+    /* left: 47px; top: 531px; */
+    /* position: absolute; */
     width: 290px;
     height: 40px;
     background-color: rgb(243, 130, 24);
