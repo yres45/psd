@@ -1,0 +1,145 @@
+body{
+
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 0px 0px 0px;
+}
+
+
+.top_header{
+    min-height: 65px;
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+   
+    
+    
+}
+
+.logo{
+    background: url(img/logo.png) center center no-repeat;
+    display: block;
+    height: 100%;
+    }
+
+.top_right_nav{
+    display:flex;
+    margin-left:70px;
+
+}    
+
+
+
+.top_right_nav li{
+    display: inline-block;
+    margin-left: 31px;
+    margin-top: 21px;
+    font-size: 16px;
+    color:black;
+    font-weight: 600;
+    border-color: blue;
+    
+}
+
+
+
+.top_right_nav a{
+    color:inherit;
+    text-decoration: none;
+}
+
+ a:hover{
+    color: chartreuse;
+    
+
+
+}
+
+.login{
+    display:block;
+    width: 24px;
+    height: 20px;
+    cursor:pointer;
+    margin-top:19px;
+    margin-left: 15px;
+   
+    
+    background:url(img/sign-out-option.png) center center no-repeat;
+    
+}
+
+.photo{
+    margin-top:12px;
+   
+    /*margin-right: 15px;*/
+    /*display:block;*/
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+    margin-left: 15px;
+    border-radius: 23.5px;
+    background:url(img/photo.png) center center no-repeat;
+}
+
+.nam-em{
+   display:inline-block; 
+   font-size: 14px;
+   font-weight: 600;
+   
+ 
+
+}
+
+.span-box  {
+    margin-left:70px;  
+    
+   
+}
+.span-box span{
+    display: inline-block;
+}
+
+.main {
+    position: relative;
+    align-items: center;
+    margin-left: 15%;
+    width: 1024px;
+    height: auto;
+    
+}
+
+.main img{
+   
+    
+    
+    /*background-color: rgb(14, 26, 116);*/
+}
+
+.el1{
+ position: absolute;
+ left: 47px; top: 142px;
+ color:white;
+ font-family: 'Overpass', sans-serif;
+ font-size: 50px;
+}
+
+.el2{
+   width: 449px; 
+   font-size: 20px;
+   position: absolute;
+   left: 47px; top: 340px;
+   color:white;
+   line-height: 29px;
+}
+
+.top-btn{
+    left: 47px; top: 531px;
+    position: absolute;
+    width: 290px;
+    height: 40px;
+    background-color: rgb(243, 130, 24);
+    outline: none;
+    border: none;
+    color: white;
+border-radius: 4px;
+}
