@@ -1,5 +1,4 @@
 body {
-
     font-family: 'Source Sans Pro', sans-serif;
     width: 1024px;
     margin: 0 auto;
@@ -8,24 +7,17 @@ body {
 
 .top_header {
     min-height: 65px;
-
     display: block;
     align-items: center;
-    /* margin-left: 15%; */
-
-
 }
 
 .logo {
-    /* background: url(img/logo.png) center center no-repeat; */
     display: inline-block;
     height: 100%;
 }
 
 .top_right_nav {
     display: inline-block;
-    /* margin-left:70px; */
-
 }
 
 .nav {
