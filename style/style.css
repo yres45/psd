@@ -1,6 +1,8 @@
 body {
-
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
     width: 1024px;
     margin: 0 auto;
 }
@@ -8,24 +10,17 @@ body {
 
 .top_header {
     min-height: 65px;
-
     display: block;
     align-items: center;
-    /* margin-left: 15%; */
-
-
 }
 
 .logo {
-    /* background: url(img/logo.png) center center no-repeat; */
     display: inline-block;
     height: 100%;
 }
 
 .top_right_nav {
     display: inline-block;
-    /* margin-left:70px; */
-
 }
 
 .nav {
@@ -58,7 +53,7 @@ a:hover {
     cursor: pointer;
     margin-top: 19px;
     margin-left: 15px;
-    background: url(img/sign-out-option.png) center center no-repeat;
+    background: url(../img/sign-out-option.png) center center no-repeat;
 }
 
 .photo {
@@ -68,7 +63,7 @@ a:hover {
     cursor: pointer;
     margin-left: 15px;
     border-radius: 23.5px;
-    background: url(img/photo.png) center center no-repeat;
+    background: url(../img/photo.png) center center no-repeat;
 }
 
 .nam-em {
@@ -91,7 +86,7 @@ a:hover {
     display: block;
     margin: 0 auto;
     height: 725px;
-    background: url("./img/img2.jpg") center no-repeat;
+    background: url("../img/img2.jpg") center no-repeat;
 }
 
 .rot-l1 {
